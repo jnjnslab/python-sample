@@ -1,0 +1,9 @@
+#数値を文字列に変換する
+print(str(29))
+print(str(3.14))
+#整数に変換する
+print(int('123'))
+print(int(3.14))
+#浮動小数点に変換する
+print(float('3.14'))
+print(float(10))

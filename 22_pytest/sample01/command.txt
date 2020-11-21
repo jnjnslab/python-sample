@@ -1,0 +1,13 @@
+インストール
+pip install pytest
+
+テストを実施する
+pytest
+
+テストケースごとに表示する
+pytest -v
+
+テスト対象を指定して実施する
+pytest -v test_queue.py
+
+

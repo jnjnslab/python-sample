@@ -1,0 +1,15 @@
+#比較演算子
+print(42==42)
+print(42==99)
+print(2!=3)
+print(2!=2)
+print(42>100)
+print(42>33)
+print(33<42)
+print(100<42)
+print(42>=42)
+print(33<=33)
+#論理演算子
+print((4<5) and (5<6))
+print((4<5) or (6<5))
+print(not(42==99))

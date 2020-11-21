@@ -1,0 +1,30 @@
+local
+db:postgres
+postgres / pass01
+
+CREATE TABLE languages(
+name         varchar(64),
+developer    varchar(128),
+date         date
+);
+
+DROP TABLE languages;
+
+INSERT INTO languages VALUES('Python','Guido Van Rossum','1991-01-01');
+INSERT INTO languages VALUES('Ruby','Matsumoto Yukihiro','1995-01-01');
+
+CREATE TABLE messages (
+username varchar(64),
+message  varchar(140)
+);
+
+
+
+
+pip install psycopg2
+
+
+
+
+
+
